@@ -33,35 +33,35 @@ $sql=$mysqli->query("select * from gestionpqr where id=$id");
 
  <input type="hidden"name="id" value="<?= $_GET["id"] ?>">
  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nombres</label>
+    <label  class="form-label">Nombres</label>
     <input type="text" class="form-control" name="nombres"value=<?= $datos->nombres ?>>
     
   </div>
  
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Apellidos</label>
+    <label  class="form-label">Apellidos</label>
     <input type="text" class="form-control" name="apellidos"value=<?= $datos->apellidos ?>>
     
   </div>
 
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Torre_Apto </label>
+    <label  class="form-label">Torre_Apto </label>
     <input type="text" class="form-control" name="torre_apto"value=<?= $datos->torre_apto ?>>
     
   </div>
 
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Correo</label>
+    <label class="form-label">Correo</label>
     <input type="email" class="form-control" name="correo"value=<?= $datos->correo ?>>
     
   </div>
 
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Telefono</label>
+    <label  class="form-label">Telefono</label>
     <input type="text" class="form-control" name="telefono"value=<?= $datos->telefono ?>>
   
     <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Comentario</label>
+    <label  class="form-label">Comentario</label>
     <input type="text" class="form-control" name="comentario"value=<?= $datos->comentario ?>>
   <div class="mb-3 form-check"><br>
 

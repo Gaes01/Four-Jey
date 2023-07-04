@@ -14,11 +14,9 @@ if (!empty($_POST["btnregistrar"])){
         if ($sql==1) {
            header ( "location: pqr.php" );
         } else {
-            echo "<div class='alert  alert-danger'> PQR Registrado Error al registrar PQR </div>";
+            echo "<div class='alert  alert-danger'> Error al registrar PQR </div>";
         }
         
-        
-    
     
         }else {
             echo "Algunos de los campos estan vacios";
